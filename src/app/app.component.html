@@ -1,0 +1,34 @@
+<nav class="navbar navbar-light bg-dark">
+	<div class="container-fluid">
+		<img class="rounded-circle" src="https://caioloureiro.orgfree.com/img/caio.jpg" style="width:3vw; height:3vw;" />
+		<a class="navbar-brand text-white" [routerLink]="'home'">Website Angular 2 + Bootstrap</a>
+		<ul class="nav">
+			<li class="nav-item">
+				<a class="nav-link text-white" [routerLink]="'home'">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-white" [routerLink]="'quem-somos'">Quem Somos</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-white" [routerLink]="'nossa-visao'">Nossa Visão</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link text-white" [routerLink]="'contato'">Contato</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+	<div class="carousel-item active">
+		<img src="https://source.unsplash.com/1920x300/?night" class="d-block w-100" />
+	</div>
+	<div class="carousel-item">
+	  <img src="https://source.unsplash.com/1920x300/?grass" class="d-block w-100" />
+	</div>
+	<div class="carousel-item">
+	  <img src="https://source.unsplash.com/1920x300/?earth" class="d-block w-100" />
+	</div>
+  </div>
+</div>
+<router-outlet></router-outlet>
